@@ -645,3 +645,159 @@ select{
     border-radius: 570px;
     border: 10px solid #fff;
 }
+
+
+/* container people */
+
+.container_people{
+    background-color: #F8F8F8;
+    padding: 120px 135px;
+}
+
+.people_content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.people_content h4{
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: 'Airbnb Cereal App';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #00B3A0;
+}
+.people_content h2{
+    margin: 0;
+    font-family: 'Eksell Display';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 52px;
+    color: #002248;
+}
+.people_content p{
+    font-family: 'Airbnb Cereal App';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #697687;
+    text-align: center;
+}
+
+.people_img{
+    position: relative;
+    margin-top: 40px;
+}
+
+.people_border{
+    border: 3px solid #fff;
+    border-radius: 100px;
+}
+
+.people_photo_1{
+    position: absolute;
+    left: 231px;
+    top: 397px;
+}
+
+.people_photo_2{
+    position: absolute;
+    left: 535px;
+    top: 40px;
+}
+
+.people_photo_3{
+    position: absolute;
+    left: 98px;
+    top: 262px;
+}
+
+.people_photo_4{
+    position: absolute;
+    left: 218px;
+    top: 183px;
+}
+
+.people_photo_5{
+    position: absolute;
+    left: 190px;
+    top: 42px;
+}
+
+.people_photo_6{
+    position: absolute;
+    left: 1026px;
+    top: 202px;
+}
+
+.people_photo_7{
+    position: absolute;
+    left: 943px;
+    top: 354px;
+}
+
+.people_photo_8{
+    position: absolute;
+    left: 885px;
+    top: 118px;
+}
+
+.people_info{
+    box-sizing: border-box;
+    position: absolute;
+    top: 170px;
+    left: 335px;
+    width: 500px;
+    height: 230px;
+    background-color: #fff;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.people_info p{
+    font-family: 'Airbnb Cereal App';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #697687;
+}
+.people_info h5{
+    margin: 0;
+    font-family: 'Airbnb Cereal App';
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #002248;
+}
+.people_info h6{
+    margin: 0;
+    font-family: 'Airbnb Cereal App';
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #697687;
+}
+
+.people_figure{
+    position: absolute;
+    top: 430px;
+    left: 570px;
+    display: flex;
+    gap: 5px;
+}
+
+.people_circle{
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #6976874D;
+}
+
+.people_rectandle{
+    width: 20px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #3685FB;
+}
